@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  demo
+//
+//  Created by 于.Sir゛ on 2021/11/29.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#pragma mark -------系统文件-------
+#import <objc/runtime.h>
+#import "configureDef.h"
+
+#pragma mark -------配置文件-------
+
+
+#pragma mark -------数据存储-------
+
+
+#pragma mark -------公用方法-------
+#import "CellHeightCache.h"
+
+#pragma mark -------category-------
+#import "CommonCategory.h"
+
+#pragma mark -------第三方开源库-------
+
+
+#pragma mark -------工具类-------
+
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
