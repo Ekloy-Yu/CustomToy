@@ -1,0 +1,12 @@
+platform :ios, '13'
+target 'demo' do
+
+  pod 'Masonry', '~> 1.1.0'
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'SDWebImage', '~> 5.10.0'
+  pod 'MJExtension', '~> 3.2.2'
+  # YYKit
+  pod 'YYKit', '~> 1.0.9'
+  
+end

@@ -28,7 +28,11 @@
 #import "CommonCategory.h"
 
 #pragma mark -------第三方开源库-------
-
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "SDWebImage.h"
+#import "MJExtension.h"
 
 #pragma mark -------工具类-------
 
