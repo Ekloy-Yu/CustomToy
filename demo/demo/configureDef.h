@@ -33,6 +33,20 @@
 // 安全区域高度
 #define kTabbarSafeBottomMargin     (isiPhoneXSeries ? 34.f : 0.f)
 
+//375屏幕适配
+#define Height667(w) (kScreenHeight375Ratio*(w))
+#define Adapted375Width(x)  ceilf((x) * kScreenWidth375Ratio)
+#define Adapted375Height(x) ceilf((x) * kScreenHeight375Ratio)
+#define AdaptedFont375Size(R)     [UIFont systemFontOfSize:Adapted375Width(R)]
+#define kScreenWidth375Ratio  (UIScreen.mainScreen.bounds.size.width / 375.0)
+#define kScreenHeight375Ratio  (UIScreen.mainScreen.bounds.size.height / 667.0)
+//四舍五入保证结果是整数(如果是小数 在切圆角的时候有出现黑线的风险)
+#define Width375(w) ((CGFloat)(int)(kScreenShortSide*(w+0.5)/375))
+
+//字体大小
+#define kFontBold(fontSize) [UIFont fontWithName:@"Helvetica-Bold" size:(fontSize)]
+#define kFontSize(fontSzie) [UIFont systemFontOfSize: (fontSzie)]
+
 
 //重写NSLog,Debug模式下打印日志和当前行数
 #if DEBUG
