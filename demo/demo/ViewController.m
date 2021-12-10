@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "SecondViewController.h"
 #import "H5TextLabelViewController.h"
+#import "BigwordVersionViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -40,7 +41,7 @@
 
 - (NSArray *)listArray{
     if (!_listArray) {
-        _listArray = @[@"H5TextView", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"",];
+        _listArray = @[@"H5TextView", @"BigwordVersion", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"",];
     }
     return _listArray;
 }
@@ -76,6 +77,11 @@
     switch (indexPath.row) {
         case 0:{
             H5TextLabelViewController *vc = [[H5TextLabelViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }break;
+            
+        case 1:{
+            BigwordVersionViewController *vc = [[BigwordVersionViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }break;
             

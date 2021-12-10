@@ -6,10 +6,13 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "BigwordVersionModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BigwordVersionCell : BaseTableViewCell
+
+@property (nonatomic, strong) BigwordVersionModel *model;
 
 @end
 

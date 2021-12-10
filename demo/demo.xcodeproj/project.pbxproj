@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A2E0A2E2760B95A00066B25 /* BigwordVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E0A2D2760B95A00066B25 /* BigwordVersionViewController.m */; };
 		3A2E0A312760B9BD00066B25 /* BigwordVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E0A302760B9BD00066B25 /* BigwordVersionCell.m */; };
+		3A59F3B22763356900483072 /* BigwordVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A59F3B12763356900483072 /* BigwordVersionModel.m */; };
 		3A6DAD19275476F600D3DA4D /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD18275476F600D3DA4D /* MainTabBarViewController.m */; };
 		3A6DAD1C27547B2500D3DA4D /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD1B27547B2500D3DA4D /* IndexViewController.m */; };
 		3A6DAD4627547C7900D3DA4D /* UIImageView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD2127547C7800D3DA4D /* UIImageView+Category.m */; };
@@ -54,6 +55,8 @@
 		3A2E0A2D2760B95A00066B25 /* BigwordVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionViewController.m; sourceTree = "<group>"; };
 		3A2E0A2F2760B9BD00066B25 /* BigwordVersionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigwordVersionCell.h; sourceTree = "<group>"; };
 		3A2E0A302760B9BD00066B25 /* BigwordVersionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionCell.m; sourceTree = "<group>"; };
+		3A59F3B02763356900483072 /* BigwordVersionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigwordVersionModel.h; sourceTree = "<group>"; };
+		3A59F3B12763356900483072 /* BigwordVersionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionModel.m; sourceTree = "<group>"; };
 		3A6DAD17275476F600D3DA4D /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		3A6DAD18275476F600D3DA4D /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		3A6DAD1A27547B2500D3DA4D /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				3A2E0A2D2760B95A00066B25 /* BigwordVersionViewController.m */,
 				3A2E0A2F2760B9BD00066B25 /* BigwordVersionCell.h */,
 				3A2E0A302760B9BD00066B25 /* BigwordVersionCell.m */,
+				3A59F3B02763356900483072 /* BigwordVersionModel.h */,
+				3A59F3B12763356900483072 /* BigwordVersionModel.m */,
 			);
 			path = ExpandItem;
 			sourceTree = "<group>";
@@ -434,6 +439,7 @@
 				3A2E0A2E2760B95A00066B25 /* BigwordVersionViewController.m in Sources */,
 				3A6DAD6A2756279C00D3DA4D /* BaseViewController.m in Sources */,
 				3AC07B89274DE40200A06C59 /* AppDelegate.m in Sources */,
+				3A59F3B22763356900483072 /* BigwordVersionModel.m in Sources */,
 				3A6DAD5527547C7A00D3DA4D /* NSString+MD5.m in Sources */,
 				3AC07B9A274DE40700A06C59 /* main.m in Sources */,
 				3A6DAD4927547C7900D3DA4D /* NSString+CommonString.m in Sources */,
