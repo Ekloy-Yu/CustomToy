@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "H5TextLabelViewController.h"
 #import "BigwordVersionViewController.h"
+#import "NetworkImageViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -41,7 +42,7 @@
 
 - (NSArray *)listArray{
     if (!_listArray) {
-        _listArray = @[@"H5TextView", @"BigwordVersion", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"",];
+        _listArray = @[@"H5文本加载", @"大字版适配", @"网络图片加载", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"",];
     }
     return _listArray;
 }
@@ -82,6 +83,11 @@
             
         case 1:{
             BigwordVersionViewController *vc = [[BigwordVersionViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }break;
+            
+        case 2:{
+            NetworkImageViewController *vc = [[NetworkImageViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }break;
             

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3A2E0A2E2760B95A00066B25 /* BigwordVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E0A2D2760B95A00066B25 /* BigwordVersionViewController.m */; };
 		3A2E0A312760B9BD00066B25 /* BigwordVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E0A302760B9BD00066B25 /* BigwordVersionCell.m */; };
+		3A545A8A27684B7F003B62ED /* NetworkImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A545A8927684B7F003B62ED /* NetworkImageViewController.m */; };
+		3A545A8D27684C43003B62ED /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A545A8C27684C43003B62ED /* ImageCell.m */; };
 		3A59F3B22763356900483072 /* BigwordVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A59F3B12763356900483072 /* BigwordVersionModel.m */; };
 		3A6DAD19275476F600D3DA4D /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD18275476F600D3DA4D /* MainTabBarViewController.m */; };
 		3A6DAD1C27547B2500D3DA4D /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD1B27547B2500D3DA4D /* IndexViewController.m */; };
@@ -55,6 +57,10 @@
 		3A2E0A2D2760B95A00066B25 /* BigwordVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionViewController.m; sourceTree = "<group>"; };
 		3A2E0A2F2760B9BD00066B25 /* BigwordVersionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigwordVersionCell.h; sourceTree = "<group>"; };
 		3A2E0A302760B9BD00066B25 /* BigwordVersionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionCell.m; sourceTree = "<group>"; };
+		3A545A8827684B7F003B62ED /* NetworkImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkImageViewController.h; sourceTree = "<group>"; };
+		3A545A8927684B7F003B62ED /* NetworkImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkImageViewController.m; sourceTree = "<group>"; };
+		3A545A8B27684C43003B62ED /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		3A545A8C27684C43003B62ED /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		3A59F3B02763356900483072 /* BigwordVersionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigwordVersionModel.h; sourceTree = "<group>"; };
 		3A59F3B12763356900483072 /* BigwordVersionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigwordVersionModel.m; sourceTree = "<group>"; };
 		3A6DAD17275476F600D3DA4D /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
@@ -167,6 +173,17 @@
 				3A59F3B12763356900483072 /* BigwordVersionModel.m */,
 			);
 			path = ExpandItem;
+			sourceTree = "<group>";
+		};
+		3A545A8727684B11003B62ED /* NetworkImageList */ = {
+			isa = PBXGroup;
+			children = (
+				3A545A8827684B7F003B62ED /* NetworkImageViewController.h */,
+				3A545A8927684B7F003B62ED /* NetworkImageViewController.m */,
+				3A545A8B27684C43003B62ED /* ImageCell.h */,
+				3A545A8C27684C43003B62ED /* ImageCell.m */,
+			);
+			path = NetworkImageList;
 			sourceTree = "<group>";
 		};
 		3A6DAD1D27547B4B00D3DA4D /* Tool */ = {
@@ -296,6 +313,7 @@
 		3AC07B86274DE40200A06C59 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				3A545A8727684B11003B62ED /* NetworkImageList */,
 				3A2E0A2B2760B8D400066B25 /* ExpandItem */,
 				3A7277AB275724010039FCCE /* HTMLText */,
 				3A7277AA275710AF0039FCCE /* Class */,
@@ -442,12 +460,14 @@
 				3A59F3B22763356900483072 /* BigwordVersionModel.m in Sources */,
 				3A6DAD5527547C7A00D3DA4D /* NSString+MD5.m in Sources */,
 				3AC07B9A274DE40700A06C59 /* main.m in Sources */,
+				3A545A8A27684B7F003B62ED /* NetworkImageViewController.m in Sources */,
 				3A6DAD4927547C7900D3DA4D /* NSString+CommonString.m in Sources */,
 				3A6DAD5127547C7A00D3DA4D /* UIView+TargetAction.m in Sources */,
 				3A7277B82757687A0039FCCE /* BaseTableViewCell.m in Sources */,
 				3A2E0A312760B9BD00066B25 /* BigwordVersionCell.m in Sources */,
 				3A6DAD4827547C7900D3DA4D /* UITextView+UITextView_Placeholder.m in Sources */,
 				3A6DAD5627547C7A00D3DA4D /* NSArray+SafeObjectArray.m in Sources */,
+				3A545A8D27684C43003B62ED /* ImageCell.m in Sources */,
 				3A6DAD5027547C7A00D3DA4D /* UIDevice+Device.m in Sources */,
 				3A7277AE275724450039FCCE /* H5TextLabelViewController.m in Sources */,
 				3A6DAD4D27547C7900D3DA4D /* UIColor+ColorChange.m in Sources */,

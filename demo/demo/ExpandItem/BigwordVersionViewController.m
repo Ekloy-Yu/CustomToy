@@ -90,7 +90,7 @@
             },
             @{@"imageUrl":@"http://prod-member-1258642429.cos.ap-beijing.myqcloud.com/dir/KScmZBBbQ8E5RsJJ.jpg",
               @"title":@"游玩课",
-              @"subTitle":@"",//【Plus会员】权益
+              @"subTitle":@"Plus会员权益",
               @"detail":@"在各国纷纷表态北京冬奥会之后，日本记者询问汪文斌，目前中国驻加拿大使馆已经向加方提出了严正交涉，中国下一步会不会向英国提出交涉。对于这个问题，汪文斌不需要具体回复，他表示，我们驻英国使馆已经发布了相关的消息稿，你可以查阅"
             },
             @{@"imageUrl":@"https://prod-member-1258642429.cos.ap-beijing.myqcloud.com/dir/yeXzbn3NadpT4jJ6.jpg",
@@ -107,5 +107,5 @@
     
     [self.tableView reloadData];
 }
-//
+
 @end
